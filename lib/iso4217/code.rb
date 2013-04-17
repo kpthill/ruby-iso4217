@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 module ISO4217
   CODE["AED"] = ISO4217::Code.new(
     :code => "AED",
@@ -5,7 +6,8 @@ module ISO4217
     :locations => ["UNITED ARAB EMIRATES"],
     :currency => "UAE Dirham",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["AFN"] = ISO4217::Code.new(
     :code => "AFN",
@@ -13,7 +15,8 @@ module ISO4217
     :locations => ["AFGHANISTAN"],
     :currency => "Afghani",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["ALL"] = ISO4217::Code.new(
     :code => "ALL",
@@ -21,7 +24,8 @@ module ISO4217
     :locations => ["ALBANIA"],
     :currency => "Lek",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["AMD"] = ISO4217::Code.new(
     :code => "AMD",
@@ -29,7 +33,8 @@ module ISO4217
     :locations => ["ARMENIA"],
     :currency => "Armenian Dram",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["ANG"] = ISO4217::Code.new(
     :code => "ANG",
@@ -37,7 +42,8 @@ module ISO4217
     :locations => ["NETHERLANDS ANTILLES"],
     :currency => "Netherlands Antillian Guilder",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["AOA"] = ISO4217::Code.new(
     :code => "AOA",
@@ -45,7 +51,8 @@ module ISO4217
     :locations => ["ANGOLA"],
     :currency => "Kwanza",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["ARS"] = ISO4217::Code.new(
     :code => "ARS",
@@ -53,7 +60,8 @@ module ISO4217
     :locations => ["ARGENTINA"],
     :currency => "Argentine Peso",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["AUD"] = ISO4217::Code.new(
     :code => "AUD",
@@ -61,7 +69,8 @@ module ISO4217
     :locations => ["AUSTRALIA", "CHRISTMAS ISLAND", "COCOS (KEELING) ISLANDS", "HEARD ISLAND AND MCDONALD ISLANDS", "KIRIBATI", "NAURU", "NORFOLK ISLAND", "TUVALU"],
     :currency => "Australian Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["AWG"] = ISO4217::Code.new(
     :code => "AWG",
@@ -69,7 +78,8 @@ module ISO4217
     :locations => ["ARUBA"],
     :currency => "Aruban Guilder",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["AZN"] = ISO4217::Code.new(
     :code => "AZN",
@@ -77,7 +87,8 @@ module ISO4217
     :locations => ["AZERBAIJAN"],
     :currency => "Azerbaijanian Manat",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BAM"] = ISO4217::Code.new(
     :code => "BAM",
@@ -85,7 +96,8 @@ module ISO4217
     :locations => ["BOSNIA AND HERZEGOVINA"],
     :currency => "Convertible Marks",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BBD"] = ISO4217::Code.new(
     :code => "BBD",
@@ -93,7 +105,8 @@ module ISO4217
     :locations => ["BARBADOS"],
     :currency => "Barbados Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BDT"] = ISO4217::Code.new(
     :code => "BDT",
@@ -101,7 +114,8 @@ module ISO4217
     :locations => ["BANGLADESH"],
     :currency => "Taka",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BGN"] = ISO4217::Code.new(
     :code => "BGN",
@@ -109,7 +123,8 @@ module ISO4217
     :locations => ["BULGARIA"],
     :currency => "Bulgarian Lev",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BHD"] = ISO4217::Code.new(
     :code => "BHD",
@@ -117,7 +132,8 @@ module ISO4217
     :locations => ["BAHRAIN"],
     :currency => "Bahraini Dinar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 3
   )
   CODE["BIF"] = ISO4217::Code.new(
     :code => "BIF",
@@ -125,7 +141,8 @@ module ISO4217
     :locations => ["BURUNDI"],
     :currency => "Burundi Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["BMD"] = ISO4217::Code.new(
     :code => "BMD",
@@ -133,7 +150,8 @@ module ISO4217
     :locations => ["BERMUDA"],
     :currency => "Bermudian Dollar (customarily known as Bermuda Dollar)",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BND"] = ISO4217::Code.new(
     :code => "BND",
@@ -141,7 +159,8 @@ module ISO4217
     :locations => ["BRUNEI DARUSSALAM"],
     :currency => "Brunei Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BOB"] = ISO4217::Code.new(
     :code => "BOB",
@@ -149,7 +168,8 @@ module ISO4217
     :locations => ["BOLIVIA"],
     :currency => "Boliviano",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BOV"] = ISO4217::Code.new(
     :code => "BOV",
@@ -157,7 +177,8 @@ module ISO4217
     :locations => ["BOLIVIA"],
     :currency => "Mvdol",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BRL"] = ISO4217::Code.new(
     :code => "BRL",
@@ -165,7 +186,8 @@ module ISO4217
     :locations => ["BRAZIL"],
     :currency => "Brazilian Real",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BSD"] = ISO4217::Code.new(
     :code => "BSD",
@@ -173,7 +195,8 @@ module ISO4217
     :locations => ["BAHAMAS"],
     :currency => "Bahamian Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BTN"] = ISO4217::Code.new(
     :code => "BTN",
@@ -181,7 +204,8 @@ module ISO4217
     :locations => ["BHUTAN"],
     :currency => "Ngultrum",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BWP"] = ISO4217::Code.new(
     :code => "BWP",
@@ -189,7 +213,8 @@ module ISO4217
     :locations => ["BOTSWANA"],
     :currency => "Pula",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["BYR"] = ISO4217::Code.new(
     :code => "BYR",
@@ -197,7 +222,8 @@ module ISO4217
     :locations => ["BELARUS"],
     :currency => "Belarussian Ruble",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["BZD"] = ISO4217::Code.new(
     :code => "BZD",
@@ -205,7 +231,8 @@ module ISO4217
     :locations => ["BELIZE"],
     :currency => "Belize Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CAD"] = ISO4217::Code.new(
     :code => "CAD",
@@ -213,7 +240,8 @@ module ISO4217
     :locations => ["CANADA"],
     :currency => "Canadian Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CDF"] = ISO4217::Code.new(
     :code => "CDF",
@@ -221,7 +249,8 @@ module ISO4217
     :locations => ["CONGO, THE DEMOCRATIC REPUBLIC OF"],
     :currency => "Franc Congolais",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CHE"] = ISO4217::Code.new(
     :code => "CHE",
@@ -229,7 +258,8 @@ module ISO4217
     :locations => ["SWITZERLAND"],
     :currency => "WIR Euro",
     :ccc => true,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CHF"] = ISO4217::Code.new(
     :code => "CHF",
@@ -237,7 +267,8 @@ module ISO4217
     :locations => ["LIECHTENSTEIN", "SWITZERLAND"],
     :currency => "Swiss Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CHW"] = ISO4217::Code.new(
     :code => "CHW",
@@ -245,7 +276,8 @@ module ISO4217
     :locations => ["SWITZERLAND"],
     :currency => "WIR Franc",
     :ccc => true,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CLF"] = ISO4217::Code.new(
     :code => "CLF",
@@ -253,7 +285,8 @@ module ISO4217
     :locations => ["CHILE"],
     :currency => "Unidades de fomento",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["CLP"] = ISO4217::Code.new(
     :code => "CLP",
@@ -261,7 +294,8 @@ module ISO4217
     :locations => ["CHILE"],
     :currency => "Chilean Peso",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["CNY"] = ISO4217::Code.new(
     :code => "CNY",
@@ -269,7 +303,8 @@ module ISO4217
     :locations => ["CHINA"],
     :currency => "Yuan Renminbi",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["COP"] = ISO4217::Code.new(
     :code => "COP",
@@ -277,7 +312,8 @@ module ISO4217
     :locations => ["COLOMBIA"],
     :currency => "Colombian Peso",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["COU"] = ISO4217::Code.new(
     :code => "COU",
@@ -285,7 +321,8 @@ module ISO4217
     :locations => ["COLOMBIA"],
     :currency => "Unidad de Valor Real",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CRC"] = ISO4217::Code.new(
     :code => "CRC",
@@ -293,7 +330,8 @@ module ISO4217
     :locations => ["COSTA RICA"],
     :currency => "Costa Rican Colon",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CUP"] = ISO4217::Code.new(
     :code => "CUP",
@@ -301,7 +339,8 @@ module ISO4217
     :locations => ["CUBA"],
     :currency => "Cuban Peso",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["CVE"] = ISO4217::Code.new(
     :code => "CVE",
@@ -309,7 +348,8 @@ module ISO4217
     :locations => ["CAPE VERDE"],
     :currency => "Cape Verde Escudo",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["CYP"] = ISO4217::Code.new(
     :code => "CYP",
@@ -325,7 +365,8 @@ module ISO4217
     :locations => ["CZECH REPUBLIC"],
     :currency => "Czech Koruna",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["DJF"] = ISO4217::Code.new(
     :code => "DJF",
@@ -333,7 +374,8 @@ module ISO4217
     :locations => ["DJIBOUTI"],
     :currency => "Djibouti Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["DKK"] = ISO4217::Code.new(
     :code => "DKK",
@@ -341,7 +383,8 @@ module ISO4217
     :locations => ["DENMARK", "FAROE ISLANDS", "GREENLAND"],
     :currency => "Danish Krone",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["DOP"] = ISO4217::Code.new(
     :code => "DOP",
@@ -349,7 +392,8 @@ module ISO4217
     :locations => ["DOMINICAN REPUBLIC"],
     :currency => "Dominican Peso",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["DZD"] = ISO4217::Code.new(
     :code => "DZD",
@@ -373,7 +417,8 @@ module ISO4217
     :locations => ["EGYPT"],
     :currency => "Egyptian Pound",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["ERN"] = ISO4217::Code.new(
     :code => "ERN",
@@ -381,7 +426,8 @@ module ISO4217
     :locations => ["ERITREA"],
     :currency => "Nakfa",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["ETB"] = ISO4217::Code.new(
     :code => "ETB",
@@ -389,7 +435,8 @@ module ISO4217
     :locations => ["ETHIOPIA"],
     :currency => "Ethiopian Birr",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["EUR"] = ISO4217::Code.new(
     :code => "EUR",
@@ -397,7 +444,8 @@ module ISO4217
     :locations => ["ANDORRA", "AUSTRIA", "BELGIUM", "CYPRUS", "FINLAND", "FRANCE", "FRENCH GUIANA", "FRENCH SOUTHERN TERRITORIES", "GERMANY", "GREECE", "GUADELOUPE", "HOLY SEE (VATICAN CITY STATE)", "IRELAND", "ITALY", "LUXEMBOURG", "MALTA", "MARTINIQUE", "MAYOTTE", "MONACO", "MONTENEGRO", "NETHERLANDS", "PORTUGAL", "R\303\211UNION", "SAINT PIERRE AND MIQUELON", "SAN MARINO", "SLOVENIA", "SPAIN"],
     :currency => "Euro",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["FJD"] = ISO4217::Code.new(
     :code => "FJD",
@@ -405,7 +453,8 @@ module ISO4217
     :locations => ["FIJI"],
     :currency => "Fiji Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["FKP"] = ISO4217::Code.new(
     :code => "FKP",
@@ -413,7 +462,8 @@ module ISO4217
     :locations => ["FALKLAND ISLANDS (MALVINAS)"],
     :currency => "Falkland Islands Pound",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["GBP"] = ISO4217::Code.new(
     :code => "GBP",
@@ -421,7 +471,8 @@ module ISO4217
     :locations => ["UNITED KINGDOM"],
     :currency => "Pound Sterling",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["GEL"] = ISO4217::Code.new(
     :code => "GEL",
@@ -429,7 +480,8 @@ module ISO4217
     :locations => ["GEORGIA"],
     :currency => "Lari",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["GHS"] = ISO4217::Code.new(
     :code => "GHS",
@@ -437,7 +489,8 @@ module ISO4217
     :locations => ["GHANA"],
     :currency => "Ghana Cedi",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["GIP"] = ISO4217::Code.new(
     :code => "GIP",
@@ -445,7 +498,8 @@ module ISO4217
     :locations => ["GIBRALTAR"],
     :currency => "Gibraltar Pound",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["GMD"] = ISO4217::Code.new(
     :code => "GMD",
@@ -453,7 +507,8 @@ module ISO4217
     :locations => ["GAMBIA"],
     :currency => "Dalasi",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["GNF"] = ISO4217::Code.new(
     :code => "GNF",
@@ -461,7 +516,8 @@ module ISO4217
     :locations => ["GUINEA"],
     :currency => "Guinea Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["GTQ"] = ISO4217::Code.new(
     :code => "GTQ",
@@ -469,7 +525,8 @@ module ISO4217
     :locations => ["GUATEMALA"],
     :currency => "Quetzal",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["GWP"] = ISO4217::Code.new(
     :code => "GWP",
@@ -485,7 +542,8 @@ module ISO4217
     :locations => ["GUYANA"],
     :currency => "Guyana Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["HKD"] = ISO4217::Code.new(
     :code => "HKD",
@@ -493,7 +551,8 @@ module ISO4217
     :locations => ["HONG KONG"],
     :currency => "Hong Kong Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["HNL"] = ISO4217::Code.new(
     :code => "HNL",
@@ -501,7 +560,8 @@ module ISO4217
     :locations => ["HONDURAS"],
     :currency => "Lempira",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["HRK"] = ISO4217::Code.new(
     :code => "HRK",
@@ -509,7 +569,8 @@ module ISO4217
     :locations => ["CROATIA"],
     :currency => "Croatian Kuna",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["HTG"] = ISO4217::Code.new(
     :code => "HTG",
@@ -517,7 +578,8 @@ module ISO4217
     :locations => ["HAITI"],
     :currency => "Gourde",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["HUF"] = ISO4217::Code.new(
     :code => "HUF",
@@ -525,7 +587,8 @@ module ISO4217
     :locations => ["HUNGARY"],
     :currency => "Forint",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["IDR"] = ISO4217::Code.new(
     :code => "IDR",
@@ -533,7 +596,8 @@ module ISO4217
     :locations => ["INDONESIA"],
     :currency => "Rupiah",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["ILS"] = ISO4217::Code.new(
     :code => "ILS",
@@ -541,7 +605,8 @@ module ISO4217
     :locations => ["ISRAEL"],
     :currency => "New Israeli Sheqel",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["INR"] = ISO4217::Code.new(
     :code => "INR",
@@ -549,7 +614,8 @@ module ISO4217
     :locations => ["BHUTAN", "INDIA"],
     :currency => "Indian Rupee Ngultrum",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["IQD"] = ISO4217::Code.new(
     :code => "IQD",
@@ -557,7 +623,8 @@ module ISO4217
     :locations => ["IRAQ"],
     :currency => "Iraqi Dinar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 3
   )
   CODE["IRR"] = ISO4217::Code.new(
     :code => "IRR",
@@ -565,7 +632,8 @@ module ISO4217
     :locations => ["IRAN, ISLAMIC REPUBLIC OF"],
     :currency => "Iranian Rial",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["ISK"] = ISO4217::Code.new(
     :code => "ISK",
@@ -573,7 +641,8 @@ module ISO4217
     :locations => ["ICELAND"],
     :currency => "Iceland Krona",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["JMD"] = ISO4217::Code.new(
     :code => "JMD",
@@ -581,7 +650,8 @@ module ISO4217
     :locations => ["JAMAICA"],
     :currency => "Jamaican Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["JOD"] = ISO4217::Code.new(
     :code => "JOD",
@@ -589,7 +659,8 @@ module ISO4217
     :locations => ["JORDAN"],
     :currency => "Jordanian Dinar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 3
   )
   CODE["JPY"] = ISO4217::Code.new(
     :code => "JPY",
@@ -597,7 +668,8 @@ module ISO4217
     :locations => ["JAPAN"],
     :currency => "Yen",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["KES"] = ISO4217::Code.new(
     :code => "KES",
@@ -605,7 +677,8 @@ module ISO4217
     :locations => ["KENYA"],
     :currency => "Kenyan Shilling",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["KGS"] = ISO4217::Code.new(
     :code => "KGS",
@@ -613,7 +686,8 @@ module ISO4217
     :locations => ["KYRGYZSTAN"],
     :currency => "Som",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["KHR"] = ISO4217::Code.new(
     :code => "KHR",
@@ -621,7 +695,8 @@ module ISO4217
     :locations => ["CAMBODIA"],
     :currency => "Riel",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["KMF"] = ISO4217::Code.new(
     :code => "KMF",
@@ -629,7 +704,8 @@ module ISO4217
     :locations => ["COMOROS"],
     :currency => "Comoro Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["KPW"] = ISO4217::Code.new(
     :code => "KPW",
@@ -637,7 +713,8 @@ module ISO4217
     :locations => ["KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF"],
     :currency => "North Korean Won",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["KRW"] = ISO4217::Code.new(
     :code => "KRW",
@@ -645,7 +722,8 @@ module ISO4217
     :locations => ["KOREA, REPUBLIC OF"],
     :currency => "Won",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["KWD"] = ISO4217::Code.new(
     :code => "KWD",
@@ -653,7 +731,8 @@ module ISO4217
     :locations => ["KUWAIT"],
     :currency => "Kuwaiti Dinar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 3
   )
   CODE["KYD"] = ISO4217::Code.new(
     :code => "KYD",
@@ -661,7 +740,8 @@ module ISO4217
     :locations => ["CAYMAN ISLANDS"],
     :currency => "Cayman Islands Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["KZT"] = ISO4217::Code.new(
     :code => "KZT",
@@ -669,7 +749,8 @@ module ISO4217
     :locations => ["KAZAKHSTAN"],
     :currency => "Tenge",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["LAK"] = ISO4217::Code.new(
     :code => "LAK",
@@ -677,7 +758,8 @@ module ISO4217
     :locations => ["LAO PEOPLE'S DEMOCRATIC REPUBLIC"],
     :currency => "Kip",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["LBP"] = ISO4217::Code.new(
     :code => "LBP",
@@ -685,7 +767,8 @@ module ISO4217
     :locations => ["LEBANON"],
     :currency => "Lebanese Pound",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["LKR"] = ISO4217::Code.new(
     :code => "LKR",
@@ -693,7 +776,8 @@ module ISO4217
     :locations => ["SRI LANKA"],
     :currency => "Sri Lanka Rupee",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["LRD"] = ISO4217::Code.new(
     :code => "LRD",
@@ -701,7 +785,8 @@ module ISO4217
     :locations => ["LIBERIA"],
     :currency => "Liberian Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["LSL"] = ISO4217::Code.new(
     :code => "LSL",
@@ -709,7 +794,8 @@ module ISO4217
     :locations => ["LESOTHO"],
     :currency => "Loti",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["LTL"] = ISO4217::Code.new(
     :code => "LTL",
@@ -717,7 +803,8 @@ module ISO4217
     :locations => ["LITHUANIA"],
     :currency => "Lithuanian Litas",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["LVL"] = ISO4217::Code.new(
     :code => "LVL",
@@ -725,7 +812,8 @@ module ISO4217
     :locations => ["LATVIA"],
     :currency => "Latvian Lats",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["LYD"] = ISO4217::Code.new(
     :code => "LYD",
@@ -733,7 +821,8 @@ module ISO4217
     :locations => ["LIBYAN ARAB JAMAHIRIYA"],
     :currency => "Libyan Dinar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 3
   )
   CODE["MAD"] = ISO4217::Code.new(
     :code => "MAD",
@@ -741,7 +830,8 @@ module ISO4217
     :locations => ["MOROCCO", "WESTERN SAHARA"],
     :currency => "Moroccan Dirham",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MDL"] = ISO4217::Code.new(
     :code => "MDL",
@@ -749,7 +839,8 @@ module ISO4217
     :locations => ["MOLDOVA, REPUBLIC OF"],
     :currency => "Moldovan Leu",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MGA"] = ISO4217::Code.new(
     :code => "MGA",
@@ -757,7 +848,8 @@ module ISO4217
     :locations => ["MADAGASCAR"],
     :currency => "Malagasy Ariary",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0.7
   )
   CODE["MKD"] = ISO4217::Code.new(
     :code => "MKD",
@@ -765,7 +857,8 @@ module ISO4217
     :locations => ["MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"],
     :currency => "Denar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["MMK"] = ISO4217::Code.new(
     :code => "MMK",
@@ -773,7 +866,8 @@ module ISO4217
     :locations => ["MYANMAR"],
     :currency => "Kyat",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["MNT"] = ISO4217::Code.new(
     :code => "MNT",
@@ -781,7 +875,8 @@ module ISO4217
     :locations => ["MONGOLIA"],
     :currency => "Tugrik",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MOP"] = ISO4217::Code.new(
     :code => "MOP",
@@ -789,7 +884,8 @@ module ISO4217
     :locations => ["MACAO"],
     :currency => "Pataca",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MRO"] = ISO4217::Code.new(
     :code => "MRO",
@@ -797,7 +893,8 @@ module ISO4217
     :locations => ["MAURITANIA"],
     :currency => "Ouguiya",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0.7
   )
   CODE["MTL"] = ISO4217::Code.new(
     :code => "MTL",
@@ -813,7 +910,8 @@ module ISO4217
     :locations => ["MAURITIUS"],
     :currency => "Mauritius Rupee",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MVR"] = ISO4217::Code.new(
     :code => "MVR",
@@ -821,7 +919,8 @@ module ISO4217
     :locations => ["MALDIVES"],
     :currency => "Rufiyaa",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MWK"] = ISO4217::Code.new(
     :code => "MWK",
@@ -829,7 +928,8 @@ module ISO4217
     :locations => ["MALAWI"],
     :currency => "Kwacha",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MXN"] = ISO4217::Code.new(
     :code => "MXN",
@@ -837,7 +937,8 @@ module ISO4217
     :locations => ["MEXICO"],
     :currency => "Mexican Peso ",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MXV"] = ISO4217::Code.new(
     :code => "MXV",
@@ -845,7 +946,8 @@ module ISO4217
     :locations => ["MEXICO"],
     :currency => "Mexican Unidad de Inversion (UDI)",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MYR"] = ISO4217::Code.new(
     :code => "MYR",
@@ -853,7 +955,8 @@ module ISO4217
     :locations => ["MALAYSIA"],
     :currency => "Malaysian Ringgit",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["MZN"] = ISO4217::Code.new(
     :code => "MZN",
@@ -861,7 +964,8 @@ module ISO4217
     :locations => ["MOZAMBIQUE"],
     :currency => "Metical",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["NAD"] = ISO4217::Code.new(
     :code => "NAD",
@@ -869,7 +973,8 @@ module ISO4217
     :locations => ["NAMIBIA"],
     :currency => "Namibia Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["NGN"] = ISO4217::Code.new(
     :code => "NGN",
@@ -877,7 +982,8 @@ module ISO4217
     :locations => ["NIGERIA"],
     :currency => "Naira",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["NIO"] = ISO4217::Code.new(
     :code => "NIO",
@@ -885,7 +991,8 @@ module ISO4217
     :locations => ["NICARAGUA"],
     :currency => "Cordoba Oro",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["NOK"] = ISO4217::Code.new(
     :code => "NOK",
@@ -893,7 +1000,8 @@ module ISO4217
     :locations => ["BOUVET ISLAND", "NORWAY", "SVALBARD AND JAN MAYEN"],
     :currency => "Norwegian Krone",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["NPR"] = ISO4217::Code.new(
     :code => "NPR",
@@ -901,7 +1009,8 @@ module ISO4217
     :locations => ["NEPAL"],
     :currency => "Nepalese Rupee",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["NZD"] = ISO4217::Code.new(
     :code => "NZD",
@@ -909,7 +1018,8 @@ module ISO4217
     :locations => ["COOK ISLANDS", "NEW ZEALAND", "NIUE", "PITCAIRN", "TOKELAU"],
     :currency => "New Zealand Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["OMR"] = ISO4217::Code.new(
     :code => "OMR",
@@ -917,7 +1027,8 @@ module ISO4217
     :locations => ["OMAN"],
     :currency => "Rial Omani",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 3
   )
   CODE["PAB"] = ISO4217::Code.new(
     :code => "PAB",
@@ -925,7 +1036,8 @@ module ISO4217
     :locations => ["PANAMA"],
     :currency => "Balboa",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["PEN"] = ISO4217::Code.new(
     :code => "PEN",
@@ -933,7 +1045,8 @@ module ISO4217
     :locations => ["PERU"],
     :currency => "Nuevo Sol",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["PGK"] = ISO4217::Code.new(
     :code => "PGK",
@@ -941,7 +1054,8 @@ module ISO4217
     :locations => ["PAPUA NEW GUINEA"],
     :currency => "Kina",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["PHP"] = ISO4217::Code.new(
     :code => "PHP",
@@ -949,7 +1063,8 @@ module ISO4217
     :locations => ["PHILIPPINES"],
     :currency => "Philippine Peso",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["PKR"] = ISO4217::Code.new(
     :code => "PKR",
@@ -957,7 +1072,8 @@ module ISO4217
     :locations => ["PAKISTAN"],
     :currency => "Pakistan Rupee",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["PLN"] = ISO4217::Code.new(
     :code => "PLN",
@@ -965,7 +1081,8 @@ module ISO4217
     :locations => ["POLAND"],
     :currency => "Zloty",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["PYG"] = ISO4217::Code.new(
     :code => "PYG",
@@ -973,7 +1090,8 @@ module ISO4217
     :locations => ["PARAGUAY"],
     :currency => "Guarani",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["QAR"] = ISO4217::Code.new(
     :code => "QAR",
@@ -981,7 +1099,8 @@ module ISO4217
     :locations => ["QATAR"],
     :currency => "Qatari Rial",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["RON"] = ISO4217::Code.new(
     :code => "RON",
@@ -989,7 +1108,8 @@ module ISO4217
     :locations => ["ROMANIA"],
     :currency => "New Leu",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["RSD"] = ISO4217::Code.new(
     :code => "RSD",
@@ -997,7 +1117,8 @@ module ISO4217
     :locations => ["SERBIA"],
     :currency => "Serbian Dinar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["RUB"] = ISO4217::Code.new(
     :code => "RUB",
@@ -1005,7 +1126,8 @@ module ISO4217
     :locations => ["RUSSIAN FEDERATION"],
     :currency => "Russian Ruble",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["RWF"] = ISO4217::Code.new(
     :code => "RWF",
@@ -1013,7 +1135,8 @@ module ISO4217
     :locations => ["RWANDA"],
     :currency => "Rwanda Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["SAR"] = ISO4217::Code.new(
     :code => "SAR",
@@ -1021,7 +1144,8 @@ module ISO4217
     :locations => ["SAUDI ARABIA"],
     :currency => "Saudi Riyal",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SBD"] = ISO4217::Code.new(
     :code => "SBD",
@@ -1029,7 +1153,8 @@ module ISO4217
     :locations => ["SOLOMON ISLANDS"],
     :currency => "Solomon Islands Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SCR"] = ISO4217::Code.new(
     :code => "SCR",
@@ -1037,7 +1162,8 @@ module ISO4217
     :locations => ["SEYCHELLES"],
     :currency => "Seychelles Rupee",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SDG"] = ISO4217::Code.new(
     :code => "SDG",
@@ -1045,7 +1171,8 @@ module ISO4217
     :locations => ["SUDAN"],
     :currency => "Sudanese Pound",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SEK"] = ISO4217::Code.new(
     :code => "SEK",
@@ -1053,7 +1180,8 @@ module ISO4217
     :locations => ["SWEDEN"],
     :currency => "Swedish Krona",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SGD"] = ISO4217::Code.new(
     :code => "SGD",
@@ -1061,7 +1189,8 @@ module ISO4217
     :locations => ["SINGAPORE"],
     :currency => "Singapore Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SHP"] = ISO4217::Code.new(
     :code => "SHP",
@@ -1069,7 +1198,8 @@ module ISO4217
     :locations => ["SAINT HELENA"],
     :currency => "Saint Helena Pound",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SKK"] = ISO4217::Code.new(
     :code => "SKK",
@@ -1085,7 +1215,8 @@ module ISO4217
     :locations => ["SIERRA LEONE"],
     :currency => "Leone",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["SOS"] = ISO4217::Code.new(
     :code => "SOS",
@@ -1093,7 +1224,8 @@ module ISO4217
     :locations => ["SOMALIA"],
     :currency => "Somali Shilling",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SRD"] = ISO4217::Code.new(
     :code => "SRD",
@@ -1101,7 +1233,8 @@ module ISO4217
     :locations => ["SURINAME"],
     :currency => "Surinam Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["STD"] = ISO4217::Code.new(
     :code => "STD",
@@ -1109,7 +1242,8 @@ module ISO4217
     :locations => ["SAO TOME AND PRINCIPE"],
     :currency => "Dobra",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["SVC"] = ISO4217::Code.new(
     :code => "SVC",
@@ -1125,7 +1259,8 @@ module ISO4217
     :locations => ["SYRIAN ARAB REPUBLIC"],
     :currency => "Syrian Pound",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["SZL"] = ISO4217::Code.new(
     :code => "SZL",
@@ -1133,7 +1268,8 @@ module ISO4217
     :locations => ["SWAZILAND"],
     :currency => "Lilangeni",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["THB"] = ISO4217::Code.new(
     :code => "THB",
@@ -1141,7 +1277,8 @@ module ISO4217
     :locations => ["THAILAND"],
     :currency => "Baht",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["TJS"] = ISO4217::Code.new(
     :code => "TJS",
@@ -1149,7 +1286,8 @@ module ISO4217
     :locations => ["TAJIKISTAN"],
     :currency => "Somoni",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["TMM"] = ISO4217::Code.new(
     :code => "TMM",
@@ -1165,7 +1303,8 @@ module ISO4217
     :locations => ["TUNISIA"],
     :currency => "Tunisian Dinar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 3
   )
   CODE["TOP"] = ISO4217::Code.new(
     :code => "TOP",
@@ -1173,7 +1312,8 @@ module ISO4217
     :locations => ["TONGA"],
     :currency => "Pa'anga",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["TRY"] = ISO4217::Code.new(
     :code => "TRY",
@@ -1181,7 +1321,8 @@ module ISO4217
     :locations => ["TURKEY"],
     :currency => "New Turkish Lira",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["TTD"] = ISO4217::Code.new(
     :code => "TTD",
@@ -1189,7 +1330,8 @@ module ISO4217
     :locations => ["TRINIDAD AND TOBAGO"],
     :currency => "Trinidad and Tobago Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["TWD"] = ISO4217::Code.new(
     :code => "TWD",
@@ -1197,7 +1339,8 @@ module ISO4217
     :locations => ["TAIWAN, PROVINCE OF CHINA"],
     :currency => "New Taiwan Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["TZS"] = ISO4217::Code.new(
     :code => "TZS",
@@ -1205,7 +1348,8 @@ module ISO4217
     :locations => ["TANZANIA, UNITED REPUBLIC OF"],
     :currency => "Tanzanian Shilling",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["UAH"] = ISO4217::Code.new(
     :code => "UAH",
@@ -1213,7 +1357,8 @@ module ISO4217
     :locations => ["UKRAINE"],
     :currency => "Hryvnia",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["UGX"] = ISO4217::Code.new(
     :code => "UGX",
@@ -1221,7 +1366,8 @@ module ISO4217
     :locations => ["UGANDA"],
     :currency => "Uganda Shilling",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["USD"] = ISO4217::Code.new(
     :code => "USD",
@@ -1229,7 +1375,8 @@ module ISO4217
     :locations => ["AMERICAN SAMOA", "BRITISH INDIAN OCEAN TERRITORY", "ECUADOR", "EL SALVADOR", "GUAM", "HAITI", "MARSHALL ISLANDS", "MICRONESIA, FEDERATED STATES OF", "NORTHERN MARIANA ISLANDS", "PALAU", "PANAMA", "PUERTO RICO", "TIMOR-LESTE", "TURKS AND CAICOS ISLANDS", "UNITED STATES", "UNITED STATES MINOR OUTLYING ISLANDS", "VIRGIN ISLANDS (BRITISH)", "VIRGIN ISLANDS (U.S.)"],
     :currency => "US Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["USN"] = ISO4217::Code.new(
     :code => "USN",
@@ -1237,7 +1384,8 @@ module ISO4217
     :locations => ["UNITED STATES"],
     :currency => "US Dollar (Next day)",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["USS"] = ISO4217::Code.new(
     :code => "USS",
@@ -1245,7 +1393,8 @@ module ISO4217
     :locations => ["UNITED STATES"],
     :currency => "US Dollar (Same day)",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["UYI"] = ISO4217::Code.new(
     :code => "UYI",
@@ -1253,7 +1402,8 @@ module ISO4217
     :locations => ["URUGUAY"],
     :currency => "Uruguay Peso en Unidades Indexadas",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["UYU"] = ISO4217::Code.new(
     :code => "UYU",
@@ -1261,7 +1411,8 @@ module ISO4217
     :locations => ["URUGUAY"],
     :currency => "Peso Uruguayo ",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["UZS"] = ISO4217::Code.new(
     :code => "UZS",
@@ -1269,7 +1420,8 @@ module ISO4217
     :locations => ["UZBEKISTAN"],
     :currency => "Uzbekistan Sum",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["VEF"] = ISO4217::Code.new(
     :code => "VEF",
@@ -1277,7 +1429,8 @@ module ISO4217
     :locations => ["VENEZUELA"],
     :currency => "Bolivar Fuerte",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["VND"] = ISO4217::Code.new(
     :code => "VND",
@@ -1285,7 +1438,8 @@ module ISO4217
     :locations => ["VIET NAM"],
     :currency => "Dong",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["VUV"] = ISO4217::Code.new(
     :code => "VUV",
@@ -1293,7 +1447,8 @@ module ISO4217
     :locations => ["VANUATU"],
     :currency => "Vatu",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["WST"] = ISO4217::Code.new(
     :code => "WST",
@@ -1301,7 +1456,8 @@ module ISO4217
     :locations => ["SAMOA"],
     :currency => "Tala",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["XAF"] = ISO4217::Code.new(
     :code => "XAF",
@@ -1309,7 +1465,8 @@ module ISO4217
     :locations => ["CAMEROON", "CENTRAL AFRICAN REPUBLIC", "CHAD", "CONGO", "EQUATORIAL GUINEA", "GABON"],
     :currency => "CFA Franc BEAC ‡",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["XAG"] = ISO4217::Code.new(
     :code => "XAG",
@@ -1317,7 +1474,8 @@ module ISO4217
     :locations => [nil],
     :currency => "Silver",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XAU"] = ISO4217::Code.new(
     :code => "XAU",
@@ -1325,7 +1483,8 @@ module ISO4217
     :locations => [nil],
     :currency => "Gold",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XBA"] = ISO4217::Code.new(
     :code => "XBA",
@@ -1333,7 +1492,8 @@ module ISO4217
     :locations => [nil],
     :currency => "Bond Markets Units European Composite Unit (EURCO)",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XBB"] = ISO4217::Code.new(
     :code => "XBB",
@@ -1341,7 +1501,8 @@ module ISO4217
     :locations => [nil],
     :currency => "European Monetary Unit (E.M.U.-6)",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XBC"] = ISO4217::Code.new(
     :code => "XBC",
@@ -1349,7 +1510,8 @@ module ISO4217
     :locations => [nil],
     :currency => "European Unit of Account 9(E.U.A.-9)",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XBD"] = ISO4217::Code.new(
     :code => "XBD",
@@ -1357,7 +1519,8 @@ module ISO4217
     :locations => [nil],
     :currency => "European Unit of Account 17(E.U.A.-17)",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XCD"] = ISO4217::Code.new(
     :code => "XCD",
@@ -1365,7 +1528,8 @@ module ISO4217
     :locations => ["ANGUILLA", "ANTIGUA AND BARBUDA", "DOMINICA", "GRENADA", "MONTSERRAT", "SAINT KITTS AND NEVIS", "SAINT LUCIA", "SAINT VINCENT AND THE GRENADINES"],
     :currency => "East Caribbean Dollar",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["XDR"] = ISO4217::Code.new(
     :code => "XDR",
@@ -1373,7 +1537,8 @@ module ISO4217
     :locations => ["INTERNATIONAL MONETARY FUND (I.M.F)"],
     :currency => "SDR",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XFO"] = ISO4217::Code.new(
     :code => "XFO",
@@ -1381,7 +1546,8 @@ module ISO4217
     :locations => [nil],
     :currency => "Gold-Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XFU"] = ISO4217::Code.new(
     :code => "XFU",
@@ -1389,7 +1555,8 @@ module ISO4217
     :locations => [nil],
     :currency => "UIC-Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XOF"] = ISO4217::Code.new(
     :code => "XOF",
@@ -1397,7 +1564,8 @@ module ISO4217
     :locations => ["BENIN", "BURKINA FASO", "C\303\224TE D'IVOIRE", "GUINEA-BISSAU", "MALI", "NIGER", "SENEGAL", "TOGO"],
     :currency => "CFA Franc BCEAO †",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["XPD"] = ISO4217::Code.new(
     :code => "XPD",
@@ -1405,7 +1573,8 @@ module ISO4217
     :locations => [nil],
     :currency => "Palladium",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XPF"] = ISO4217::Code.new(
     :code => "XPF",
@@ -1413,7 +1582,8 @@ module ISO4217
     :locations => ["FRENCH POLYNESIA", "NEW CALEDONIA", "WALLIS AND FUTUNA"],
     :currency => "CFP Franc",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 0
   )
   CODE["XPT"] = ISO4217::Code.new(
     :code => "XPT",
@@ -1421,7 +1591,8 @@ module ISO4217
     :locations => [nil],
     :currency => "Platinum",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XTS"] = ISO4217::Code.new(
     :code => "XTS",
@@ -1429,7 +1600,8 @@ module ISO4217
     :locations => [nil],
     :currency => "Codes specifically reserved for testing purposes",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["XXX"] = ISO4217::Code.new(
     :code => "XXX",
@@ -1437,7 +1609,8 @@ module ISO4217
     :locations => [nil],
     :currency => "The codes assigned for transactions where no currency is involved are:",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => nil
   )
   CODE["YER"] = ISO4217::Code.new(
     :code => "YER",
@@ -1445,7 +1618,8 @@ module ISO4217
     :locations => ["YEMEN"],
     :currency => "Yemeni Rial",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["ZAR"] = ISO4217::Code.new(
     :code => "ZAR",
@@ -1453,7 +1627,8 @@ module ISO4217
     :locations => ["LESOTHO", "NAMIBIA", "SOUTH AFRICA"],
     :currency => "Rand",
     :ccc => false,
-    :obsolete => nil
+    :obsolete => nil,
+    :e => 2
   )
   CODE["ZMK"] = ISO4217::Code.new(
     :code => "ZMK",

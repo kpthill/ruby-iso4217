@@ -1,3 +1,7 @@
+This is a fork of Keita Yamaguchi's ruby-iso4217 gem, adding the ability to
+format a currency amount correctly for that currency.  The original README file
+is below.
+
 = RTask
 
 Author::    Keita Yamaguchi(山口 慶太) <keita.yamaguchi@gmail.com>
